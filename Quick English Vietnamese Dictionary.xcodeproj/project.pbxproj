@@ -1054,14 +1054,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Tien Do Huu (LB4YF2FP8D)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tien Do Huu (LB4YF2FP8D)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Quick English Vietnamese Dictionary/Quick English Vietnamese Dictionary-Prefix.pch";
 				INFOPLIST_FILE = "Quick English Vietnamese Dictionary/Quick English Vietnamese Dictionary-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "536257E9-5C53-4AED-A187-F2F39946ECAE";
+				PROVISIONING_PROFILE = "E8BA2165-0044-4A0E-9E99-873FA5A28113";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1071,14 +1071,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Tien Do Huu (LB4YF2FP8D)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tien Do Huu (LB4YF2FP8D)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Quick English Vietnamese Dictionary/Quick English Vietnamese Dictionary-Prefix.pch";
 				INFOPLIST_FILE = "Quick English Vietnamese Dictionary/Quick English Vietnamese Dictionary-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "536257E9-5C53-4AED-A187-F2F39946ECAE";
+				PROVISIONING_PROFILE = "E8BA2165-0044-4A0E-9E99-873FA5A28113";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

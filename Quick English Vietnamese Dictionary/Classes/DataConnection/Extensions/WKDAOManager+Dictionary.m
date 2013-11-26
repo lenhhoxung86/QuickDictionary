@@ -83,7 +83,7 @@
 - (DictionaryData *)getWordByRowId:(NSInteger)wordID {
     
     NSMutableArray *wordsArray = [[NSMutableArray alloc] init];
-    NSArray *params = [NSArray arrayWithObject:[NSNumber numberWithInt:wordID]];
+    NSArray *params = [NSArray arrayWithObject:[NSNumber numberWithLong:wordID]];
     NSString *condition = @"WHERE rowId = ?";
     [wordsArray addObjectsFromArray:[self selectAll:kDictDataTable withConditions:condition andParams:params]];
     if (wordsArray.count > 0) {
